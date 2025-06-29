@@ -1,0 +1,184 @@
+﻿<%@ Master Language="VB" CodeFile="AdminMaster.master.vb" Inherits="AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+       <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SpryStore E-commerce Category Bootstrap Responsive Website Template | Home :: W3layouts</title>
+    <link href="Sprystore-Starter/assets/css/style-starter.css" rel="stylesheet" />
+
+      <!-- Template CSS -->
+  <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
+    <script src="Sprystore-Starter/assets/js/all.js"></script>
+    <script src="Sprystore-Starter/assets/js/app.js"></script>
+    <script src="Sprystore-Starter/assets/js/bootstrap.min.js"></script>
+    <script src="Sprystore-Starter/assets/js/imagezoom.js"></script>
+    <script src="Sprystore-Starter/assets/js/jquery-2.1.4.min.js"></script>
+    <script src="Sprystore-Starter/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="Sprystore-Starter/assets/js/jquery-ui.js"></script>
+    <script src="Sprystore-Starter/assets/js/jquery.flexslider.js"></script>
+   <script src="Sprystore-Starter/assets/js/jquery.magnific-popup.js"></script>
+    <script src="Sprystore-Starter/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="Sprystore-Starter/assets/js/jquery.quicksand.js"></script>
+    <script src="Sprystore-Starter/assets/js/minicart.js"></script>
+    <script src="Sprystore-Starter/assets/js/popper.min.js"></script>
+    <script src="Sprystore-Starter/assets/js/script.js"></script>
+    <script src="Sprystore-Starter/assets/js/swiper.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <section class="w3l-banner-slider-main inner-pagehny">
+  <div class="breadcrumb-infhny">
+
+    <div class="top-header-content">
+
+      <header class="tophny-header">
+        <div class="container-fluid">
+          <div class="top-right-strip row">
+            <!--/left-->
+            <div class="top-hny-left-content col-lg-6 pl-lg-0">
+              <%--<h6>Upto 30% off on All styles , <a href="#" target="_blank"> Click here for <span
+                    class="fa fa-hand-o-right hand-icon" aria-hidden="true"></span> <span class="hignlaite">More
+                    details</span></a></h6>--%>
+            </div>
+            <!--//left-->
+            <!--/right-->
+            <ul class="top-hnt-right-content col-lg-6">
+
+              <li class="button-log usernhy">
+                <a class="btn-open" href="AdminLogout.aspx">
+                  <span class="fa fa-sign-out" aria-hidden="true"></span>
+                </a>
+              </li>
+             <%-- <li class="transmitvcart galssescart2 cart cart box_1">
+                <form action="#" method="post" class="last">
+                  <input type="hidden" name="cmd" value="_cart">
+                  <input type="hidden" name="display" value="1">
+                  <button class="top_transmitv_cart" type="submit" name="submit" value="">
+                    My Cart
+                    <span class="fa fa-shopping-cart"></span>
+                  </button>
+                </form>
+              </li>--%>
+            </ul>
+            <!--//right-->
+            
+          </div>
+        </div>
+        <!--/nav-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid serarc-fluid">
+            <a class="navbar-brand" href="index.html">
+              F-<span class="lohny">Z</span>ONE</a>
+            <!-- if logo is image enable this   
+                    <a class="navbar-brand" href="#index.html">
+                      <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                    </a> -->
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            	<span class="navbar-toggler-icon fa fa-bars"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                 <li class="nav-item">
+                  <a class="nav-link" href="AdminHome.aspx">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Category.aspx">Add Brand</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="AddProduct.aspx">Add Product</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="report.aspx">Order Report</a>
+                </li>
+               
+
+                <li class="nav-item">
+                  <a class="nav-link" href="userdetails.aspx">User Details</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+        <!--//nav-->
+      </header>
+     <div class="breadcrumb-contentnhy">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <h2 class="hny-title text-center">Admin</h2>
+            <%--<ol class="breadcrumb mb-0">
+              <li><a href="UserHome.aspx">Home</a>
+                <span class="fa fa-angle-double-right"></span></li>
+              <li class="active">Store</li>
+            </ol>--%>
+          </nav>
+        </div>
+      </div>
+    </div>
+</section>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <section class="w3l-footer-22">
+      <!-- footer-22 -->
+      <div class="footer-hny py-5">
+          <div class="container py-lg-5">
+              
+              <div class="below-section row">
+                  <div class="columns col-lg-6">
+                     <h3><a class="logo-footer" href="index.html">
+                            F-<span class="lohny">Z</span>ONE</a></h3>
+                  </div>
+                  <div class="columns col-lg-6 text-lg-right">
+                      <p>© 2020 F-ZONE. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
+                              Future Programers</a>
+                      </p>
+                  </div>
+                  <button onclick="topFunction()" id="movetop" title="Go to top">
+                      <span class="fa fa-angle-double-up"></span>
+                  </button>
+              </div>
+          </div>
+      </div>
+      <!-- //titels-5 -->
+ <!-- move top -->
+
+      <script>
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function () {
+              scrollFunction()
+          };
+
+          function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  document.getElementById("movetop").style.display = "block";
+              } else {
+                  document.getElementById("movetop").style.display = "none";
+              }
+          }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+          }
+      </script>
+      <!-- /move top -->
+  </section>
+
+    </div>
+    </form>
+</body>
+</html>
